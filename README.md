@@ -25,3 +25,16 @@ This project demonstrates a complete data pipeline workflow using Azure services
 - **Step 3: Preprocess Data with Azure Databricks**  
   The data is read from Blob Storage into Azure Databricks using PySpark. Data cleaning, transformation, and preprocessing steps are applied. The refined dataset is then written back to Blob Storage in an       
   organized format for further use or analysis.
+
+## Technologies Used
+- Python (in Jupyter Notebook)
+
+- Azure SQL Database
+
+- Azure Data Factory (ADF)
+
+- Azure Blob Storage
+
+- Azure Databricks
+
+
