@@ -1,4 +1,4 @@
-# Jupyter Notebook -> Azure SQL DB -> Azure Data Factory -> Azure Blob Storage -> PreProcessing in Databricks -> Blob Storage
+# Jupyter Notebook -> Azure SQL DB -> Azure Data Factory -> Azure Blob Storage -> PreProcessing with Databricks -> Blob Storage
 
 ##  Project Overview
 
