@@ -2,7 +2,7 @@
 
 A pipeline in Azure Data Factory extracts the data from Azure SQL Database and writes it to a specified container in Azure Blob Storage in CSV format.
 
-## Step 1 - Setting Up Azure Datafactory in the Azure Portal
+## Step 1 - Setting Up Azure Data Factory in the Azure Portal
 
 - Login to portal.azure.com and open Data Factories 
 - Select Create
