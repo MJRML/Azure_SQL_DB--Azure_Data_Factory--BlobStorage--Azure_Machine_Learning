@@ -94,6 +94,18 @@ A pipeline in Azure Data Factory extracts the data from Azure SQL Database and w
 ![Step15](Images/15.png)
 ![Step16](Images/16.png)
 
+- We can set triggers on a schedule or when new data has been added to the Azure SQL DB
+
+![Step17](Images/17.png)
+
+- You can monitor the pipeline running in the Monitor tab and check any failures that may occur
+
+- Once it has been successful, go and check your blob storage container and the file should have transferred
+
+- Here we can see the dataset has been created from the Azure SQL Database to our Azure Blob storage 
+
+![Step18](Images/18.png)
+
 
 
 
