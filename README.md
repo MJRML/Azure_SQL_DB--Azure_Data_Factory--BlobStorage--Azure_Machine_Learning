@@ -1,4 +1,4 @@
-# Jupyter Notebook -> Azure SQL DB -> Azure Data Factory -> Azure Blob Storage -> PreProcessing with Azure Machine Learning -> Blob Storage
+# Jupyter Notebook -> Azure SQL DB -> Azure Data Factory -> Azure Blob Storage -> PreProcessing with Azure Machine Learning -> Azure Machine Learning and deploy it as a web service for Logistic Regression
 
 ##  Project Overview
 
