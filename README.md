@@ -2,7 +2,7 @@
 
 ##  Project Overview
 
-This project demonstrates a complete data pipeline workflow using Azure services, starting from local data ingestion to cloud-based preprocessing and storage. The solution integrates Jupyter Notebooks, Azure SQL Database, Azure Data Factory, Azure Blob Storage, and Azure Machine Learning to efficiently handle data, transform it, and deploy machine learning models using Azure Machine Learning
+This project demonstrates a complete data pipeline workflow using Azure services, starting from local data ingestion to cloud-based preprocessing and storage. The solution integrates Jupyter Notebooks, Azure SQL Database, Azure Data Factory, Azure Blob Storage, and Azure Machine Learning to efficiently handle data, transform it, and deploy machine learning models using Azure Machine Learning as a Real-Time Endpoint
 
 ## Objectives
 
@@ -12,7 +12,7 @@ This project demonstrates a complete data pipeline workflow using Azure services
 
 - To preprocess the dataset using Azure Machine Learning and deploy it as a web service for Logistic Regression
 
-- Deploy machine learning models using Azure Machine Learning
+- Deploy machine learning models using Azure Machine Learning as Real-time Endpoint to ingest new data and return a result for our Logistic Regression model
 
 ## Workflow Summary
 
@@ -23,7 +23,7 @@ This project demonstrates a complete data pipeline workflow using Azure services
   A pipeline in Azure Data Factory extracts the data from Azure SQL Database and writes it to a specified container in Azure Blob Storage in CSV format.
 
 - **Step 3: Preprocess Data with Azure Machine Learning and deploy as a web server**  
-  To preprocess the dataset using Azure Machine Learning and deploy it as a web service for Logistic Regression
+  To preprocess the dataset using Azure Machine Learning and deploy it as a Real-time Endpoint to ingest new data and return a result for our Logistic Regression model
 
 ## Technologies Used
 - Python (in Jupyter Notebook)
