@@ -1,4 +1,4 @@
-# Jupyter Notebook -> Azure SQL DB -> Azure Data Factory -> Azure Blob Storage -> PreProcessing with Azure Machine Learning -> Azure Machine Learning and deploy it as Real-time Endpoint
+# Jupyter Notebook -> Azure SQL DB -> Azure Data Factory -> Azure Blob Storage -> PreProcessing with Azure Machine Learning -> Create and Register an Azure Machine Learning and deploy it as Real-time Endpoint
 
 ##  Project Overview
 
@@ -12,7 +12,7 @@ This project demonstrates a complete data pipeline workflow using Azure services
 
 - To preprocess the dataset using Azure Machine Learning and deploy it as a web service for Logistic Regression
 
-- Deploy machine learning models using Azure Machine Learning as Real-time Endpoint to ingest new data and return a result for our Logistic Regression model
+- Create and Register machine learning models using Azure Machine Learning as Real-time Endpoint to ingest new data and return a result for our Logistic Regression model
 
 ## Workflow Summary
 
