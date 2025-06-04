@@ -10,7 +10,7 @@ This project demonstrates a complete data pipeline workflow using Azure services
 
 - Automate the transfer of data from Azure SQL Database to Azure Blob Storage using Azure Data Factory (ADF).
 
-- To preprocess the dataset using Azure Machine Learning and deploy it as a web service for Logistic Regression
+- To preprocess the dataset using Azure Machine Learning notebooks
 
 - Create and Register machine learning models using Azure Machine Learning as Real-time Endpoint to ingest new data and return a result for our Logistic Regression model
 
