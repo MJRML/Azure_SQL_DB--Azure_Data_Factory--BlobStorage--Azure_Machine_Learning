@@ -41,7 +41,7 @@
 - Once your Compute Instance is up and running – open a notebook
 ![Step13](Images/13.png)
 
--In This notebook, this is where we will Pre-Process our data and a Logistic Model on our data
+- In This notebook, this is where we will Pre-Process our data and a Logistic Model on our data
 
 - When our Logistic Regression model is trained, we create a pickle File for our model to be called and ingest new data when we create a real-time endpoint using this model
 
