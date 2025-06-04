@@ -22,7 +22,7 @@ This project demonstrates a complete data pipeline workflow using Azure services
 - **Step 2: Transfer Data to Azure Blob Storage via Azure Data Factory:**  
   A pipeline in Azure Data Factory extracts the data from Azure SQL Database and writes it to a specified container in Azure Blob Storage in CSV format.
 
-- **Step 3: Preprocess Data with Azure Machine Learning and deploy as a web server**  
+- **Step 3: Preprocess Data with Azure Machine Learning and deploy the model as a Real-Time Endpoint**  
   To preprocess the dataset using Azure Machine Learning and deploy it as a Real-time Endpoint to ingest new data and return a result for our Logistic Regression model
 
 ## Technologies Used
