@@ -66,5 +66,60 @@
 
 ![Step18](Images/18.png)
 
+- Next we add the dependencies to the conda file and create our Enviroment
+
+![Step19](Images/19.png)
+
+## Step4:  Create a score.py script and create the Real-Time endpoint from the deploy wizard
+
+- I have added the score.py script to this repository
+- You create a score.py file to define how the model should be used to make predictions.
+-	Loads your trained model
+-	Accepts input data
+-	Uses the model to generate predictions  
 
 
+- init()	Loads the model once when the service starts (for performance).
+- run(data)	Runs every time a prediction request comes in. It processes the input, runs inference, and returns the result.
+
+- Open our model list and select our registered model and select the Real-Time endpoint deployment wizard
+
+![Step20](Images/20.png)
+
+- Enter an endpoint name and compute type will be managed for this project and Auth Type will be key-based
+- Select your model
+
+![Step21](Images/21.png)
+
+- Enter a deployment name
+
+![Step22](Images/22.png)
+
+- Next, add the scoring script for inferencing – select your score.py file that you have created and select the custom environment we created in the steps before
+
+![Step23](Images/23.png)
+
+- Configure your compute – Select an instance count of 2, its perfect for testing and not expensive – takes a bit longer but overall saves money
+
+![Step24](Images/24.png)
+
+- We are not performing an A/B testing so we can allocate 100% of the traffic
+  
+![Step25](Images/25.png)
+
+-  Review and create
+
+## Step 5: Testing our Real-Time Endpoint with unseen data
+
+- Open your endpoint in the Endpoint tab
+
+![Step26](Images/26.png)
+
+- Here we can test our Real-Time endpoint with unseen data to return a result
+- When entering the Json structured data, note the data has to be in the same order the model was trained
+
+![Step27](Images/27.png)
+
+![Step28](Images/28.png)
+
+- We have the option to use this Real-Time endpoint using a REST-API which can be found under the consume tab
